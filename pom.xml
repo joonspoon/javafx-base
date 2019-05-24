@@ -19,6 +19,11 @@
       <artifactId>javafx-controls</artifactId>
       <version>12.0.1</version>
     </dependency>
+    <dependency>
+      <groupId>org.openjfx</groupId>
+      <artifactId>javafx-fxml</artifactId>
+      <version>12.0.1</version>
+    </dependency>
   </dependencies>
   
   <build>
@@ -36,7 +41,7 @@
               <artifactId>javafx-maven-plugin</artifactId>
               <version>0.0.2</version>
               <configuration>
-                  <mainClass>hellofx.HelloFX</mainClass>
+                  <mainClass>hellofx.Launcher</mainClass>
               </configuration>
           </plugin>
           <plugin>
@@ -56,7 +61,7 @@
                         <transformers>
                             <transformer implementation=
                                                  "org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                <!-- <mainClass>hellofx.Launcher</mainClass> -->
+                                <mainClass>hellofx.Launcher</mainClass>
                             </transformer>
                         </transformers>
                     </configuration>
