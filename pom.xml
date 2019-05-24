@@ -19,25 +19,6 @@
       <artifactId>javafx-controls</artifactId>
       <version>12.0.1</version>
     </dependency>
-    <!-- Uncomment for cross-platform fat jar
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-graphics</artifactId>
-        <version>12.0.1</version>
-        <classifier>win</classifier>
-    </dependency>
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-graphics</artifactId>
-        <version>12.0.1</version>
-        <classifier>linux</classifier>
-    </dependency> -->
-    <dependency>
-        <groupId>org.openjfx</groupId>
-        <artifactId>javafx-graphics</artifactId>
-        <version>12.0.1</version>
-        <classifier>mac</classifier>
-    </dependency> 
   </dependencies>
   
   <build>
